@@ -28,7 +28,7 @@
   // ajax request abstraction
   function ajaxRequest (url) {
     var xhr = new XMLHttpRequest();
-    xhr.open('POST', url);
+    xhr.open('GET', url);
     xhr.setRequestHeader('Content-Type', 'application/json');
     xhr.onload = function() {
         if (xhr.status === 200) {
