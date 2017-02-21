@@ -18,7 +18,7 @@
 
   // application settings
   var settingsApp = {
-    url : 'data/data.json',
+    url : window.location.href+'data/data.json',
     radiofilter : 10,
     maxItems : 49,
     checklikes : false, 
